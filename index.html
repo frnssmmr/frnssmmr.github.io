@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script/scripts.js"></script>
+</head>
+<body style="text-align: center;">
+    <img id="gif2" src="asset/image/patrick-happy.gif" alt="patrick-happy" style="display: none;">
+    <img id="gif1" src="asset/image/patrick-cry.gif" alt="patrick-cry" style="display: none;">
+    <img id="pic1" src="asset/image/accept2.jpg" alt="pic1" style="display:none;">
+    <img id="pic2" src="asset/image/accept1.jpg" alt="pic2" style="display:none;">
+    <h2 id="jdlbsr">Question</h2>
+    <p id="question">Apakah Kamu Cinta Padaku ?</p>
+    <p id="yakin"></p>
+    <p id="ygbener"></p>
+    <p id="jgnboong"></p>
+    <button id="yes1" type="button" value="Ya" onclick="tombolYes()">sudah pasti :)</button>
+    <button id="no1" type="button" value="No" onclick="tombolNo()">engga dulu deh</button>
+    <p id="yakin"></p>
+    <button id="yes2" type="button" value="Ya" onclick="tombolYes2()" style="display:none;">iya iya deh aku cinta kamu :)</button>
+    <button id="no2" type="button" value="No" onclick="tombolNo2()" style="display: none;">iya dek, yakin banget nih</button>
+    <button id="no3" type="button" onclick="tombolNo3()" style="display: none;">iya loh dekk!!</button>
+    <button id="yes3" type="button" onclick="tombolYes3()" style="display: none;">iya deh iya, jangan nagis gituuuu</button>
+
+    <style>
+        button {
+            padding: 15px;
+            background-color: cyan;
+            border-radius: 5px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        button:hover {
+            color: azure;
+            background-color: rgb(0, 216, 216);
+            transition: 0.5s;
+        }
+    </style>
+</body>
+</html>
