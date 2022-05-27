@@ -9,7 +9,6 @@ function tombolYes() {
 
 function tombolYes2() {
     document.getElementById("pic2").style.display="inline";
-    document.getElementById("pic2").style.width="500px";
     document.getElementById("jdlbsr").style.display="none";
     document.getElementById("ygbener").style.display="none";
     document.getElementById("yakin").style.display="none";
